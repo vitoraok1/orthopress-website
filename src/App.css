@@ -54,7 +54,9 @@ h3 {
 }
 
 .lead {
-  font-size: 25px;
+  font-size: 27px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
   text-transform: capitalize;
 }
 
@@ -112,10 +114,6 @@ button {
     align-items: center;
 }
 
-.btn-group .btn {
-    width: 100%;
-}
-
 .btn-group .btn:first-child {
     margin-bottom: 2rem;
 }
@@ -133,4 +131,26 @@ button {
 .more-info:hover {
   transform: scale(1.1);
   background-color: var(--light-blue-color);
+}
+
+.line-art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 240px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.line-art img {
+    filter: invert(70%) sepia(94%) saturate(0%) hue-rotate(272deg) brightness(200%) contrast(101%);
+    width: 28px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.line-art div {
+    width: 100px;
+    height: 2px;
+    background-color: var(--light-gray);
 }

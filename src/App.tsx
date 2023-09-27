@@ -3,8 +3,11 @@ import './App.css';
 import { Slider, SliderProps, Slide } from './components/commons/Slider';
 import { Card } from './components/commons/Card';
 import { Navbar } from './components/commons/Navbar';
+import { Header } from './components/commons/Header';
 
 import { cards } from './components-mock';
+
+import Logo2 from './assets/images/logo2.svg';
 
 function App() {
   const [slidesPerView, setSlidesPerView] = useState(3);
@@ -42,9 +45,16 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Header />
       <div className="carousel-container">
+      <br />
       <h2 className="lead">Nossos Tratamentos em Destaque</h2>
       <p className="text text-lg">Encontre o sorriso dos seus sonhos. <br/>Saiba mais sobre nossos tratamentos especializados!</p>
+      <div className="line-art">
+        <div />
+        <img src={Logo2} alt="Orthopress icon"/>
+        <div />
+      </div>
       <Slider settings={settings}>
           { cards.map((card,) => (
             <Slide>
