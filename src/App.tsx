@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Slider, SliderProps, Slide } from './components/commons/Slider';
 import { Card } from './components/commons/Card';
+import { Navbar } from './components/commons/Navbar';
 
 import { cards } from './components-mock';
 
@@ -40,6 +41,7 @@ function App() {
 
   return (
     <div>
+      <Navbar />
       <div className="carousel-container">
       <h2 className="lead">Nossos Tratamentos em Destaque</h2>
       <p className="text text-lg">Encontre o sorriso dos seus sonhos. <br/>Saiba mais sobre nossos tratamentos especializados!</p>
