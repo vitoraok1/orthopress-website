@@ -8,6 +8,7 @@ import { Header } from './components/commons/Header';
 import { cards } from './components-mock';
 
 import Logo2 from './assets/images/logo2.svg';
+import { About } from './components/commons/About';
 
 function App() {
   const [slidesPerView, setSlidesPerView] = useState(3);
@@ -46,6 +47,7 @@ function App() {
     <div>
       <Navbar />
       <Header />
+      <About />
       <div className="carousel-container">
       <br />
       <h2 className="lead">Nossos Tratamentos em Destaque</h2>
