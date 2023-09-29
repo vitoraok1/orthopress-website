@@ -37,7 +37,7 @@ export class Banner extends Component<{}, BannerState> {
           <img src={ desktopBanner ? Atendimento2 : Atendimento1 } alt="Banner Atendimento" />
         </div>
         <div className="btn-group service-container">
-          <a href="index.html" className="btn btn-white schedule service">Saiba Mais</a>
+          <a href="index.html" className="btn btn-white schedule service">Saiba mais</a>
         </div>
       </div>
     </div>

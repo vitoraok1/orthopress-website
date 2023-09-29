@@ -5,6 +5,7 @@ import { Card } from './components/commons/Card';
 import { Navbar } from './components/commons/Navbar';
 import { Header } from './components/commons/Header';
 import { Banner } from './components/commons/Banner';
+import { Whatsapp } from './components/commons/Whatsapp';
 import Footer from './components/commons/Footer';
 
 import { cards } from './components-mock';
@@ -47,6 +48,7 @@ function App() {
 
   return (
     <div>
+      <Whatsapp />
       <Navbar />
       <Header />
       <About />
