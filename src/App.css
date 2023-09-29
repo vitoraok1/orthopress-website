@@ -4,6 +4,7 @@
 :root {
     --fros-blue-color: #01308c;
     --gradient-blue-color: linear-gradient(90deg, rgba(6, 60, 194, 1) 0%, rgba(7, 75, 220, 1) 15%, rgba(25, 100, 228, 1) 50%, rgba(7, 75, 220, 1) 85%, rgba(6, 60, 194, 1) 100%);
+    --gradient-light-blue-color: linear-gradient(0deg, #1E9ED8ff, #2DAEE3ff, #79D9EDff);
     --light-blue-color: #16c5ff;
     --lightest-blue-color: #a4e8ff;
     --dark-color: #202020;
