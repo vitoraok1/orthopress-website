@@ -41,23 +41,21 @@ export class Navbar extends Component<{}, NavbarState> {
           <img src={ desktopLogo ? Logo1 : Logo2 } alt="Logo Orthopress"/>
         </a>
 
-        <div>
-          <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
-            <li><a href="index.html" className="active">Início</a></li>
-            <li><a href="index.html">Ortodontia</a></li>
-            <li><a href="index.html">Implantodontia</a></li>
-            <li><a href="index.html">Próteses</a></li>
-            <li><a href="index.html">Endodontia</a></li>
-            <li><a href="index.html">Dentística</a></li>
-            <li><a href="index.html">Cirurgia</a></li>
-            <li><a href="index.html">Prevenção</a></li>
-            <li><a href="index.html">Harmonização Orofacial</a></li>
-            <li><a href="index.html">Odontopediatria</a></li>
-            <li><a href="index.html">Periodontia</a></li>
-            <li><a href="index.html">Planos Odontológicos</a></li>
-            <li><a href="index.html">Contato</a></li>
-          </ul>
-        </div>
+        <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
+          <li><a href="index.html" className="active">Início</a></li>
+          <li><a href="index.html">Ortodontia</a></li>
+          <li><a href="index.html">Implantodontia</a></li>
+          <li><a href="index.html">Próteses</a></li>
+          <li><a href="index.html">Endodontia</a></li>
+          <li><a href="index.html">Dentística</a></li>
+          <li><a href="index.html">Cirurgia</a></li>
+          <li><a href="index.html">Prevenção</a></li>
+          <li><a href="index.html">HOF</a></li>
+          <li><a href="index.html">Odontopediatria</a></li>
+          <li><a href="index.html">Periodontia</a></li>
+          <li><a href="index.html">Planos</a></li>
+          <li><a href="index.html">Contato</a></li>
+        </ul>
 
         <div className="mobile" onClick={this.handleClick}>
           <i id="bar" className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>

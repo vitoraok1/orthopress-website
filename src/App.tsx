@@ -4,6 +4,7 @@ import { Slider, SliderProps, Slide } from './components/commons/Slider';
 import { Card } from './components/commons/Card';
 import { Navbar } from './components/commons/Navbar';
 import { Header } from './components/commons/Header';
+import Footer from './components/commons/Footer';
 
 import { cards } from './components-mock';
 
@@ -68,6 +69,7 @@ function App() {
           )) }
       </Slider>
      </div>
+     <Footer />
     </div>
   );
 }

@@ -97,3 +97,39 @@ nav img {
     width: 4rem;
   }
 }
+
+@media screen and (min-width: 1442px) {
+  nav img {
+    width: 12rem;
+  }
+
+  #navbar li a {
+    font-size: 1.4rem;
+    margin-left: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  #navbar li a {
+    font-size: 1.5rem;
+    margin-left: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  #navbar li {
+    margin-left: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1750px) {
+  #navbar li {
+    margin-left: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1850px) {
+  #navbar li {
+    margin-left: 2.8rem;
+  }
+}
