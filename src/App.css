@@ -10,6 +10,7 @@
     --dark-color: #202020;
     --light-gray: #dedede;
     --dark-gray: #a1a1a0;
+    --darkest-gray: #808080;
     --light-color: #fff;
     --poppins-font: 'Poppins', sans-serif;
     --transition: all 0.3s ease-in-out;
@@ -155,4 +156,11 @@ button {
     width: 100px;
     height: 2px;
     background-color: var(--light-gray);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }

@@ -6,7 +6,7 @@ export function About() {
     <div className="about-container">
       <div className="about-texts">
         <h2 className="lead">
-          Sobre Nós
+          Quem somos
         </h2>
         <div className="border-line" />
         <p className="text text-lg">
