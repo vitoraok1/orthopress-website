@@ -37,6 +37,10 @@
     background-color: var(--light-blue-color);
 }
 
+.know-more {
+  padding: 8px 51px;
+}
+
 @media (min-width: 992px) {
   .about-container {
     display: flex;

@@ -1,0 +1,46 @@
+.review-container {
+  position: relative;
+}
+
+.reviews {
+  position: relative;
+  z-index: 1;
+}
+
+.rectangle {
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  z-index: 2;
+  background-color: #ffffff;
+}
+
+.review-title {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.review-line {
+  height: 2px;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 6rem;
+  background-color: var(--light-gray);
+  position: relative;
+}
+
+.review-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 100%;
+  width: 102px;
+  background-color: var(--light-blue-color);
+}

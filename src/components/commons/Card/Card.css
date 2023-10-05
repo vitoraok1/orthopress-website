@@ -6,9 +6,9 @@
     flex-direction: column;
     align-items: center;
     padding: 2vw;
-    background-color: #f5f5f5;
+    background-color: rgba(17, 17, 17, 0.05);
     margin-bottom: 3vh;
-    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2); */
 }
 
 .card-content {
@@ -65,7 +65,7 @@
     }
 
     .card-content a {
-        padding: 15px;
+        /* padding: 15px; */
         width: 150px;
         text-align: center;
         font-size: 1.5rem;
@@ -95,7 +95,7 @@
     }
 
     .card-content a {
-        padding: 13px;
+        /* padding: 13px; */
         width: 150px;
         text-align: center;
         font-size: 1.5rem;

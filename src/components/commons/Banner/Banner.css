@@ -18,6 +18,7 @@
 
 .service {
   margin-top: 2rem;
+  padding: 8px 51px;
 }
 
 @media (min-width: 768px) {

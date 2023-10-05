@@ -14,7 +14,7 @@ export function About() {
         <br />Contamos com uma estrutura completa onde o paciente encontrará um atendimento reservado, individualizado e de qualidade.
         </p>
         <div className="btn-group more">
-          <a href="index.html" className="btn btn-white schedule">Saiba Mais</a>
+          <a href="index.html" className="btn btn-white schedule know-more">Saiba Mais</a>
         </div>
       </div>
       <div>

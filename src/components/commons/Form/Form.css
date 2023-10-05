@@ -94,7 +94,7 @@
 
 .send-btn-disabled {
     cursor:not-allowed;
-    padding: 2rem 5rem;
+    padding: 8px 51px;
     font-size: 1.7rem;
     border-radius: 3rem;
     display: inline-block;

@@ -7,6 +7,7 @@ import { Header } from './components/commons/Header';
 import { Banner } from './components/commons/Banner';
 import { Whatsapp } from './components/commons/Whatsapp';
 import { Form } from './components/commons/Form';
+import { Reviews } from './components/commons/Reviews';
 import Footer from './components/commons/Footer';
 
 import { cards } from './components-mock';
@@ -75,6 +76,7 @@ function App() {
      </div>
      <Banner />
      <Form />
+     <Reviews />
      <Footer />
     </div>
   );
