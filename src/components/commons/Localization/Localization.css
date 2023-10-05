@@ -1,0 +1,12 @@
+.maps-container {
+  margin-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 992px) {
+  .maps-container {
+    margin: auto;
+    margin-top: 3rem;
+    max-width: 75%;
+  }
+}

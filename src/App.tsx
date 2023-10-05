@@ -8,6 +8,7 @@ import { Banner } from './components/commons/Banner';
 import { Whatsapp } from './components/commons/Whatsapp';
 import { Form } from './components/commons/Form';
 import { Reviews } from './components/commons/Reviews';
+import { Localization } from './components/commons/Localization';
 import Footer from './components/commons/Footer';
 
 import { cards } from './components-mock';
@@ -77,6 +78,7 @@ function App() {
      <Banner />
      <Form />
      <Reviews />
+     <Localization />
      <Footer />
     </div>
   );

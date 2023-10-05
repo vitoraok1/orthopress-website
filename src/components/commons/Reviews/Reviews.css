@@ -4,6 +4,8 @@
 
 .reviews {
   position: relative;
+  max-width: 95%;
+  margin: auto;
   z-index: 1;
 }
 
