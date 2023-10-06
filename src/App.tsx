@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import ScrollReveal from 'scrollreveal';
 import './App.css';
 import { Slider, SliderProps, Slide } from './components/commons/Slider';
 import { Card } from './components/commons/Card';
@@ -36,6 +37,22 @@ function App() {
       );
       setSlidesPerView(newSlidesPerView);
     }
+
+    const sr = ScrollReveal({
+      origin: 'top',   // De onde a animação deve começar ('top', 'bottom', 'left', 'right')
+      distance: '80px',   // Quão longe o elemento deve se deslocar durante a animação
+      duration: 2500,     // Duração da animação em milissegundos
+      reset: false         // Reseta a animação após cada utilização
+    });
+
+    sr.reveal('.nav', {
+      delay: 200,   // Atraso antes da animação começar em milissegundos
+    });
+
+    sr.reveal('.header', {
+      delay: 1500,   // Atraso antes da animação começar em milissegundos
+      distance: '160px',
+    });
 
     // Adicione um listener para o evento de redimensionamento da janela
     window.addEventListener('resize', handleResize);

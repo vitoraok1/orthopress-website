@@ -32,11 +32,12 @@ export class Navbar extends Component<{}, NavbarState> {
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   }
+  
 
   render() {
     const { desktopLogo } = this.state;
     return (
-      <nav>
+      <nav className="nav">
         <a href="index.html">
           <img src={ desktopLogo ? Logo1 : Logo2 } alt="Logo Orthopress"/>
         </a>
