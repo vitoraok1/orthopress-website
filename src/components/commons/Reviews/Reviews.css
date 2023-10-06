@@ -27,6 +27,7 @@
 .review-line {
   height: 2px;
   width: 25%;
+  min-width: 175px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 6rem;

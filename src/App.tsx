@@ -26,7 +26,7 @@ function App() {
     pagination: { clickable: true },
     loop: true,
   };
-
+  
   useEffect(() => {
     function handleResize() {
       const windowWidth = window.innerWidth;
