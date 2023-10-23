@@ -1,0 +1,13 @@
+.banner-main {
+  width: 100%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  max-width: 900px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.title-procedures {
+  text-transform: none!important;
+}

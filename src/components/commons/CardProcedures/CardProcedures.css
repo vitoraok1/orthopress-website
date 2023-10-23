@@ -1,0 +1,116 @@
+.card-procedures-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.card-procedures-content a {
+  text-decoration: none;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.card-procedures-content h2 {
+  margin-top: 1vh;
+}
+
+.card-procedures-content p {
+  margin-top: 1vh;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .card-procedures {
+    height: 450px;
+  }
+  
+  .card-procedures-content p {
+      font-size: 1.4rem;
+      max-width: 70vw;
+      margin-bottom: 2vh;
+  }
+
+  .card-procedures-content h2 {
+      margin-top: 2vh;
+  }
+
+  .card-procedures-content a {
+      /* padding: 15px; */
+      width: 150px;
+      text-align: center;
+      font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 451px) {
+  .card-procedures {
+    height: 530px;
+  }
+  
+  .card-img {
+      max-width: 15rem;
+  }
+
+  .card-procedures-content p {
+      font-size: 1.3rem;
+      min-width: 40vw;
+      max-width: 70vw;
+      margin-top: 3vh;
+      margin-bottom: 2vh;
+  }
+
+  .card-procedures-content h2 {
+      margin-top: 2vh;
+  }
+
+  .card-procedures-content a {
+      /* padding: 13px; */
+      width: 150px;
+      text-align: center;
+      font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .card-procedures {
+    height: 570px;
+  }
+
+  .card-procedures-content p {
+      min-width: 25vw;
+  }
+
+  .card-procedures-content a {
+      padding: 8px;
+      width: 120px;
+      text-align: center;
+      font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 1201px) {
+  .card-procedures {
+    height: 450px;
+  }
+
+  .card-img {
+      max-width: 13rem;
+  }
+  
+  .card-procedures-content p {
+      font-size: 1.3rem;
+      min-width: 18vw;
+      margin-bottom: 2vh;
+  }
+
+  .card-procedures-content a {
+      padding: 10px;
+      width: 120px;
+      text-align: center;
+      font-size: 1.5rem;
+  }
+}

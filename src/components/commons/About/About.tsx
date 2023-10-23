@@ -1,5 +1,5 @@
 import './About.css';
-import Odonthopress from '../../../assets/images/fachada.jpg'
+import Odonthopress from '../../../assets/images/fachada2.png'
 
 export function About() {
   return (

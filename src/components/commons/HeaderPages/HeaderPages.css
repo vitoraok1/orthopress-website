@@ -1,0 +1,134 @@
+.header-container-left h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.header-container-left h1 span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-container-left .lead {
+  opacity: 0.9;
+}
+
+.header-container-left .text {
+  margin: 5.8rem 0;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-container-left .btn-group {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.header-container-right {
+  margin-top: 6rem;
+}
+
+.header-container-right img {
+  max-width: 420px;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+.slogan-pages {
+  max-width: 35rem;
+  margin: auto;
+}
+
+.schedule {
+  width: 24rem;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.schedule:hover {
+  transform: scale(1.1);
+  background: var(--light-blue-color);
+}
+
+@media screen and (max-width: 768px) {
+  .header-container-left {
+    max-width: 250px;
+    margin: auto;
+  }
+
+
+  .header-container-left h1 {
+    font-size: 3rem;
+  }
+
+  .header-container-left .text {
+    margin: 3rem 0;
+  }
+
+  .header-container-right img {
+    max-width: 300px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .header-container .container {
+    grid-template-columns: 545px auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: calc(100vh - 420px);
+    position: relative;
+  }
+
+  .header-container {
+    padding-top: 1rem;
+  }
+
+  .header-container-left {
+    margin-top: 20rem;
+    padding-right: calc(80vw - 300px);
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .header-container-right img {
+    position: absolute;
+    bottom: 0;
+    right: calc(40vw - 300px);
+    max-width: 530px;
+    padding-left: 5rem;
+  }
+
+  .slogan-pages {
+    max-width: 35rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-container-right img {
+    right: calc(35vw - 300px);
+    max-width: 530px;
+  }
+
+  .header-container-left {
+    padding-right: calc(70vw - 100px);
+  }
+}
+
+@media (min-width: 1450px) {
+  .header-container-right img {
+    right: calc(30vw - 280px);
+    max-width: 540px;
+  }
+
+  .header-container-left {
+    padding-right: 50vw;
+    padding-right: calc(70vw - 100px);
+  }
+}
