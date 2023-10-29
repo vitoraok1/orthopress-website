@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 3rem;
 }
 
 .faq {
@@ -15,6 +16,9 @@
 }
 
 .question {
+  background-color: rgb(241, 241, 241);
+  border-radius: 30px;
+  padding: 5px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +30,7 @@
 
 .answer {
   max-height: 0;
+  padding: 5px 22px;
   overflow: hidden;
   transition: max-height 1.2s ease-out;
 }
@@ -33,20 +38,32 @@
 .answer p {
   padding-top: 1rem;
   line-height: 1.6;
-  font-size: 1.4rem;
+  font-size: 1.45rem;
+  font-style: italic;
+  white-space: pre-line;
 }
 
 .faq.active .answer {
-  max-height: 300px;
+  max-height: fit-content;
   animation: fade 0.5s ease-in-out;
 }
 
-.faq.active svg {
+.faq.active img {
   transform: rotate(180deg);
 }
 
-svg {
+.dropdown-icon {
+  width: 20px;
   transition: transform 0.8s ease-in;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.btn-ortodontia {
+  width: 70%;
+  font-size: 1.6rem;
 }
 
 @keyframes fade {
@@ -57,5 +74,24 @@ svg {
   to {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@media (min-width: 1000px) {
+  .accordion {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 20px; /* Espaço entre as colunas */
+  }
+
+  .question {
+    margin: auto;
+    padding: 5px 17px;
+    width: 90%;
+  }
+
+  .question h3{
+    text-align: left;
   }
 }

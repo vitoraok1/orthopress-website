@@ -170,7 +170,7 @@ export const cards = [
     },
     {
       "title": "Aparelho Lingual",
-      "content": "O aparelho lingual é uma opção a ser considerada por pacientes que buscam um tratamento discreto. Semelhante ao modelo convencional, ele consiste em bráquetes e fios metálicos, mas a diferença está na sua localização, pois são posicionados na parte de trás dos dentes. Por ficar preso na face interna dos dentes, o cuidado com a higiene deve ser redobrado, a fim de evitar o surgimeno de cáries ou outras doenças gengivais. Sendo mais indicado para tratamentos de curta duração.",
+      "content": `O aparelho lingual, similar ao modelo convencional, é uma alternativa discreta. Colocado na parte de trás dos dentes, requer cuidado extra com a higiene para prevenir cáries e doenças gengivais. Geralmente recomendado para tratamentos breves.`,
       "link": "",
       "image": {
         "url": OrtodontiaBanner5,
@@ -188,7 +188,8 @@ export const cards = [
     },
     {
       "title": "Aparelhos Móveis Funcionais",
-      "content": "Os aparelhos móveis, frequentemente recomendados para crianças e adolescentes em crescimento, possuem a finalidade de influenciar o posicionamento e o desenvolvimento da mandíbula e maxila. Feito de placa de resina acrílica com fios de aço, é projetado de forma personalizada para abordar problemas específicos e guiar o alinhamento dos dentes e ossos maxilares.",
+      "content": `Os aparelhos móveis, frequentemente recomendados para crianças e adolescentes em crescimento, possuem a finalidade de influenciar o posicionamento e o desenvolvimento da mandíbula e maxila. 
+      Feito de placa de resina acrílica com fios de aço, é projetado de forma personalizada para abordar problemas específicos e guiar o alinhamento dos dentes e ossos maxilares.`,
       "link": "",
       "image": {
         "url": OrtodontiaBanner7,
@@ -197,7 +198,7 @@ export const cards = [
     },
     {
       "title": "Documentação Ortodôntica",
-      "content": "A Documentação Ortodôntica abrange diversos exames, incluindo radiografias, fotografias intra e extra-orais, moldes de gesso e dentes, análises cefalométricas modelos computadorizados. Seu objetivo principal é proporcionar uma visão abrangente do paciente, permitindo ao dentista uma compreensão minunciosa do caso. Sem essas informações, o profissional não pode iniciar o tratamento de forma precisa, destacando a importância vital desses procedimentos para um tratamento ortodôntico eficaz.",
+      "content": `A Documentação Ortodôntica incorpora diversos exames, como radiografias, fotografias intra e extra-orais, moldes e análises computadorizadas. Esses exames fornecem uma visão detalhada do paciente, possibilitando ao dentista compreender minuciosamente o caso. São fundamentais para um tratamento ortodôntico preciso e eficaz.`,
       "link": "",
       "image": {
         "url": OrtodontiaBanner8,
@@ -209,10 +210,90 @@ export const cards = [
   export const faqOrtodontia = [
     {
       "question": "Será que eu preciso usar aparelho ortodôntico?",
-      "answer": "Existem diversos sinais que indicam que é preciso usar aparelho ortodôntico. No entanto, nem sempre eles são fácil de percepção. Por isso, o ideal é sempre buscar um ortodontista, caso você desconfie que há algo errado com a mordida ou o posicionamento dos seus dentes. Algum dos sinais para que você procure um ortodontista: Dentes muito tortos (encavalados), dificuldade para fechar a boca, Dificuldade na mordida, dores no maxilar, espaço entre os dentes.",
+      "answer": `Existem diversos sinais que indicam que é preciso usar aparelho ortodôntico. No entanto, nem sempre eles são fácil de percepção. Por isso, o ideal é sempre buscar um ortodontista, caso você desconfie que há algo errado com a mordida ou o posicionamento dos seus dentes. 
+      
+      Algum dos sinais para que você procure um ortodontista: 
+
+      - Dentes muito tortos (encavalados); 
+
+      - Dificuldade para fechar a boca; 
+
+      - Dificuldade na mordida; 
+
+      - Dores no maxilar; 
+
+      - Espaço entre os dentes.`,
     },
     {
       "question": "Qual é a importância da avaliação inicial?",
-      "answer": "O sucesso de um tratamento ortodôntico começa com um planejamento cuidadoso, que envolve uma avaliação inicial minunciosa. Nessa etapa, são definidas todas as estratégias necessárias para alcançar os objetivos estéticos e funcionais do paciente. Sem um planejamento adequado, é como embarcar em uma jornada sem um mapa, torna-se desafiador saber a direção certa. Isso pode resultar em complicações futuras, muitas vezes difíceis de resolver. Portanto é aconselhável pesquisar sobre o profissional escolhido e suas credenciais, uma vez que os profissionais atenciosos e detalhistas costumam estar comprometidos com o alcance de excelentes resultados no tratamento.",
+      "answer": `O sucesso de um tratamento ortodôntico começa com um planejamento cuidadoso, que envolve uma avaliação inicial minunciosa. Nessa etapa, são definidas todas as estratégias necessárias para alcançar os objetivos estéticos e funcionais do paciente. 
+
+      Sem um planejamento adequado, é como embarcar em uma jornada sem um mapa, torna-se desafiador saber a direção certa. Isso pode resultar em complicações futuras, muitas vezes difíceis de resolver. 
+
+      Portanto é aconselhável pesquisar sobre o profissional escolhido e suas credenciais, uma vez que os profissionais atenciosos e detalhistas costumam estar comprometidos com o alcance de excelentes resultados no tratamento.`,
+    },
+    {
+      "question": "Quais são as etapas do tratamento ortodôntico?",
+      "answer": `O tratamento ortodôntico compreende seis etapas essenciais para alcançar um alinhamento dentário satisfatório:
+
+      1 - Diagnóstico: O tratamento começa com uma consulta para avaliar a necessidade do aparelho e seu tipo, às vezes requerendo extração de dentes.
+
+      2 - Instalação do aparelho: Após a decisão, o aparelho é colocado, iniciando o movimento dos dentes.
+
+      3 - Alinhamento: A fase de ajuste e alinhamento começa, frequentemente com fios leves.
+
+      4 - Correção: Dentes são corrigidos com fios mais grossos e elásticos para fechar espaços e ajustar a mordida.
+
+      5 - Finalização: Neste ponto, os dentes estão próximos da posição correta, muitas vezes exigindo recursos adicionais.
+
+      6 - Contenção: Após a remoção do aparelho, o paciente continua com acompanhamento para garantir que os dentes permaneçam alinhados.
+
+      O tempo de cada fase varia de acordo com o caso, sendo essencial a colaboração do paciente e a adesão às orientações de cuidados e higiene. As consultas periódicas são cruciais para verificar o progresso do alinhamento dentário.`,
+    },
+    {
+      "question": "Por quanto tempo preciso usar o aparelho?",
+      "answer": `Para determinar o tempo indicado de tratamento, é necessário fazer uma avaliação com o seu dentista. 
+
+      Os tratamentos em adultos variam em média de 18 a 36 meses. Já nos adolescentes, o tratamento costuma durar cerca de 24 meses.
+      
+      Lembrando que depende muito da severidade do problema, do metabolismo da pessoa e se o paciente está seguindo as orientações do dentista.`,
+    },
+    {
+      "question": "Precisarei extrair dentes para fazer um tratamento ortodôntico?",
+      "answer": `Em grande parte dos casos, não são necessárias extrações.
+
+      A remoção de dentes é necessária apenas em casos específicos onde a falta de espaço para acomodação dos dentes é severa.
+      
+      Através do exame clínico é possível determinar se seu caso precisará de extrações ou não.`,
+    },
+    {
+      "question": "É preciso extrair os sisos para realizar um tratamento ortodôntico?",
+      "answer": "Embora em alguns casos a extração seja necessária, isso não é uma regra. Quem vai definir se será preciso retirar os sisos ou não é o dentista, após estudar as radiografias.",
+    },
+    {
+      "question": "Eu vou sentir dor durante o tratamento?",
+      "answer": `O que é comum é sentir os dentes sensíveis ao toque e à mastigação durante os três dias após o atendimento, ou seja, após a manutenção ortodôntica. 
+
+      Nesse período, deve-se evitar alimentos duros ou crocantes, gerando menos desconforto na mastigação. Após esses dias, a sensibilidade tende a cessar, voltando a normalidade.`,
+    },
+    {
+      "question": "Porque meus dentes ficaram tortos?",
+      "answer": `Os dentes tortos podem ter origem genética, ou seja, transmitida dos pais para filhos. 
+
+      O tamanho dos ossos maxilares e o tamanho dos dentes são influências familiares herdadas, resultando na falta de espaço e, consequentemente, no desalinhamento. 
+      
+      Além disso, pode ser causado devido a presença de hábitos como ao uso de chupeta, dedos, mamadeira, problemas respiratórios ou até mesmo por perda de dentes de leite de forma precoce.`,
+    },
+    {
+      "question": "Quais são as vantagens do tratamento?",
+      "answer": `São inúmeras as vantagens, abrangendo:
+
+      Benefícios Funcionais: Contribuição na correção de problemas respiratórios, estabelecimento de uma mastigação adequada, aprimoramento na articulação da fala e auxílio na resolução de questões relacionadas à ATM (como estalos, dores de cabeça e faciais), além da prevenção da perda dentária.
+      
+      Vantagens Estéticas: Elevação da autoestima, alcance de alinhamento dental adequado e harmonia na estética facial, resultando em um sorriso invejável, mais equilibrado e saudável.`,
+    },
+    { 
+      "question": "Quando devo levar meu filho ao ortodontista pela primeira vez?",
+      "answer": `A primeira visita deve ser ainda na dentição de leite, pois, diversos problemas graves como a “mordida cruzada” são comuns nessa fase e, geralmente, passam despercebidas.`,
     },
   ]

@@ -1,8 +1,14 @@
+.card-procedures {
+  background: rgb(19, 79, 230);
+  color: var(--light-gray);
+}
+
 .card-procedures-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
+  white-space: pre-line;
 }
 
 .card-procedures-content a {
@@ -13,6 +19,7 @@
 
 .card-procedures-content h2 {
   margin-top: 1vh;
+  color: var(--light-color);
 }
 
 .card-procedures-content p {
@@ -21,6 +28,10 @@
 }
 
 @media (max-width: 450px) {
+  .card-img {
+    max-width: 20rem;
+  }
+
   .card-procedures {
     height: 450px;
   }
@@ -50,7 +61,7 @@
   }
   
   .card-img {
-      max-width: 15rem;
+      max-width: 22rem;
   }
 
   .card-procedures-content p {
@@ -95,10 +106,6 @@
 @media (min-width: 1201px) {
   .card-procedures {
     height: 450px;
-  }
-
-  .card-img {
-      max-width: 13rem;
   }
   
   .card-procedures-content p {

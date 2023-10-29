@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { faqOrtodontia } from '../../../components-mock';
+import dropDown from '../../../assets/images/dropdown_ativo.png';
 import './AskedQuestions.css';
 
 type QuestionProps = {
@@ -20,10 +21,8 @@ function Question({ question, answer }: QuestionProps) {
   return (
     <div className={faqClasses} onClick={toggleDropdown}>
       <div className="question">
-        <h2>{question}</h2>
-        <svg width="15" height="10" viewBox="0 0 42 25">
-          <path d="M3 3L21 21L39 3" stroke="white" strokeWidth="7" strokeLinecap="round" />
-        </svg>
+        <h3>{question}</h3>
+        <img src={dropDown} alt="dropdown" className="dropdown-icon"/>
       </div>
       <div className="answer">
         <p>{answer}</p>
@@ -34,7 +33,7 @@ function Question({ question, answer }: QuestionProps) {
 
 export function AskedQuestions() {
   return (
-    <div>
+    <div className="faq-title">
       <h2 className="lead title-procedures">Principais dúvidas e queixas dos pacientes</h2>
       <div className="border-line" />
       <section className="accordion">
@@ -42,6 +41,9 @@ export function AskedQuestions() {
           <Question key={index} question={faq.question} answer={faq.answer} />
         ))}
       </section>
+      <div className="btn-group">
+        <a href="index.html" className="btn btn-blue schedule btn-ortodontia">Clique aqui para agendar sua avaliação inicial com a Dra. Priscila Ferraz Fuzimoto</a>
+      </div>
     </div>
   );
 }
