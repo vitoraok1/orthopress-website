@@ -55,6 +55,10 @@
   background: var(--light-blue-color);
 }
 
+.header-pages {
+  min-height: 700px;
+}
+
 @media screen and (max-width: 768px) {
   .header-container-left {
     max-width: 250px;

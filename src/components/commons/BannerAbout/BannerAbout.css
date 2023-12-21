@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  .banner-about img {
+    margin: auto;
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .banner-about img {
+    max-width: 950px;
+    margin: auto;
+  }
+}

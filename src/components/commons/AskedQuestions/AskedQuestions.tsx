@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { faqOrtodontia } from '../../../components-mock';
 import dropDown from '../../../assets/images/dropdown_ativo.png';
 import './AskedQuestions.css';
 
@@ -31,13 +30,22 @@ function Question({ question, answer }: QuestionProps) {
   );
 }
 
-export function AskedQuestions() {
+interface FaqContent {
+  question: string;
+  answer: string;
+}
+
+interface FaqProps {
+  faqTheme: FaqContent[];
+}
+
+export function AskedQuestions({ faqTheme }: FaqProps) {
   return (
     <div className="faq-title">
       <h2 className="lead title-procedures">Principais dúvidas e queixas dos pacientes</h2>
       <div className="border-line" />
       <section className="accordion">
-        {faqOrtodontia.map((faq, index) => (
+        {faqTheme.map((faq, index) => (
           <Question key={index} question={faq.question} answer={faq.answer} />
         ))}
       </section>

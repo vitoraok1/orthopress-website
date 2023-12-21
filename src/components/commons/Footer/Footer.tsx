@@ -8,9 +8,8 @@ const Footer = () => {
             <div className="footer-col">
               <h4>A Empresa</h4>
               <ul>
-                <li><a href="#">Sobre nós</a></li>
+                <li><a href="/sobre">Sobre nós</a></li>
                 <li><a href="#">Nossos serviços</a></li>
-                <li><a href="#">Contato</a></li>
                 <li><a href="#">Política de Privacidade</a></li>
               </ul>
             </div>
@@ -37,9 +36,9 @@ const Footer = () => {
             <div className="footer-col">
               <h4>Siga nossas redes sociais</h4>
               <div className="social-links">
-                <a href="#"><i className="fab fa-facebook-f"></i></a>
-                <a href="#"><i className="fab fa-instagram"></i></a>
-                <a href="#"><i className="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/orthopressodontologia" target='blank'><i className="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/orthopressodontologia/" target='blank'><i className="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@orthopressodontologia1423/" target='blank'><i className="fab fa-youtube"></i></a>
               </div>
             </div>
           </div>

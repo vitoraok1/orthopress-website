@@ -53,18 +53,18 @@ export class Navbar extends Component<{}, NavbarState> {
 
         <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
           <li><NavLink to="/" className={ thisLocation("/") }>Início</NavLink></li>
+          <li><NavLink to="/sobre" className={ thisLocation("/sobre") }>Sobre</NavLink></li>
           <li><NavLink to="/ortodontia" className={ thisLocation("/ortodontia") }>Ortodontia</NavLink></li>
           <li><a href="index.html">Implantodontia</a></li>
           <li><a href="index.html">Próteses</a></li>
-          <li><a href="index.html">Endodontia</a></li>
+          <li><NavLink to="/endodontia" className={ thisLocation("/endodontia") }>Endodontia</NavLink></li>
           <li><a href="index.html">Dentística</a></li>
-          <li><a href="index.html">Cirurgia</a></li>
+          <li><NavLink to="/cirurgia" className={ thisLocation("/cirurgia") }>Cirurgia</NavLink></li>
           <li><a href="index.html">Prevenção</a></li>
           <li><a href="index.html">HOF</a></li>
           <li><a href="index.html">Odontopediatria</a></li>
           <li><a href="index.html">Periodontia</a></li>
           <li><a href="index.html">Planos</a></li>
-          <li><a href="index.html">Contato</a></li>
         </ul>
 
         <div className="mobile" onClick={this.handleClick}>

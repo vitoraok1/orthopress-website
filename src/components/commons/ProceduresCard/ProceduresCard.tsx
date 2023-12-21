@@ -1,16 +1,27 @@
 import './ProceduresCard.css';
 import BannerMain from '../../../assets/images/banner_main_ortodontia.png'
-import { bannersOrtodontia } from '../../../components-mock';
+// import { bannersOrtodontia } from '../../../components-mock';
 import { Slide, Slider, SliderProps } from '../Slider';
 import { CardProcedures } from '../CardProcedures';
 import { useEffect, useState } from 'react';
 
-// interface HeaderPagesProps {
-//   sloganSrc: string;
-//   priSrc: string;
-// }
+interface CardContent {
+  title: string;
+  content: string;
+  link: string;
+  image: {
+    url: string;
+    alt: string;
+  }
+}
 
-export function ProceduresCard() {
+interface ProceduresCardProps {
+  title: string;
+  carouselContent: CardContent[];
+  showBannerMain?: boolean;
+}
+
+export function ProceduresCard({ title, carouselContent, showBannerMain }: ProceduresCardProps) {
   const [slidesPerView, setSlidesPerView] = useState(3);
 
   const settings: SliderProps = {
@@ -45,14 +56,16 @@ export function ProceduresCard() {
     return (
         <div>
         <h2 className="lead title-procedures">
-          Conheça os modelos mais utilizados no tratamento ortodôntico
+          { title }
         </h2>
         <div className="border-line" />
-        <div>
-          <img src={BannerMain} alt="banner main" className="banner-main" />
-        </div>
+        {showBannerMain && (
+          <div>
+            <img src={BannerMain} alt="banner main" className="banner-main" />
+          </div>
+        )}
         <Slider settings={settings}>
-          { bannersOrtodontia.map((banner,) => (
+          { carouselContent.map((banner,) => (
             <Slide>
               <CardProcedures 
                 key={banner.title} 

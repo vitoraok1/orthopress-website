@@ -27,6 +27,7 @@
   text-align: center;
 }
 
+
 @media (max-width: 450px) {
   .card-img {
     max-width: 20rem;

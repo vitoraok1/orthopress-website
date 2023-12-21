@@ -7,7 +7,7 @@ interface HeaderPagesProps {
 
 export function HeaderPages({ sloganSrc, priSrc}: HeaderPagesProps) {
     return (
-        <header className="header bg-blue">
+        <header className="header bg-blue header-pages">
           <div className="header-inner text-white text-center">
             <div className="container grid">
               <div className="header-container-left">

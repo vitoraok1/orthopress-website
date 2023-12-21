@@ -19,6 +19,37 @@ import OrtodontiaBanner5 from './assets/images/banner_5_ortodontia.png';
 import OrtodontiaBanner6 from './assets/images/banner_6_ortodontia.png';
 import OrtodontiaBanner7 from './assets/images/banner_7_ortodontia.png';
 import OrtodontiaBanner8 from './assets/images/banner_8_ortodontia.png';
+import OrtodontiaBanner9 from './assets/images/banner_9_ortodontia.png';
+
+import EndodontiaBanner1 from './assets/images/banner_1_endodontia.png';
+import EndodontiaBanner2 from './assets/images/banner_2_endodontia.png';
+
+import CirurgiaBanner1 from './assets/images/banner_1_cirurgia.png';
+import CirurgiaBanner2 from './assets/images/banner_2_cirurgia.png';
+import CirurgiaBanner3 from './assets/images/banner_3_cirurgia.png';
+import CirurgiaBanner4 from './assets/images/banner_4_cirurgia.png';
+import CirurgiaBanner5 from './assets/images/banner_5_cirurgia.png';
+import CirurgiaBanner6 from './assets/images/banner_6_cirurgia.png';
+
+
+import Image1 from './assets/images/A.jpg';
+import Image2 from './assets/images/B.jpg';
+import Image3 from './assets/images/C.jpg';
+import Image4 from './assets/images/D.jpg';
+import Image5 from './assets/images/E.jpg';
+import Image6 from './assets/images/F.jpg';
+import Image7 from './assets/images/G.jpg';
+import Image8 from './assets/images/H.jpg';
+import Image9 from './assets/images/I.jpg';
+import Image10 from './assets/images/J.jpg';
+import Image11 from './assets/images/K.jpg';
+import Image12 from './assets/images/L.jpg';
+import Image13 from './assets/images/M.jpg';
+import Image14 from './assets/images/N.jpg';
+
+import CardImage1 from './assets/images/missao_icon.png';
+import CardImage2 from './assets/images/visao_icon.png';
+import CardImage3 from './assets/images/valores_icon.png';
 
 export const cards = [
     {
@@ -189,7 +220,7 @@ export const cards = [
     {
       "title": "Aparelhos Móveis Funcionais",
       "content": `Os aparelhos móveis, frequentemente recomendados para crianças e adolescentes em crescimento, possuem a finalidade de influenciar o posicionamento e o desenvolvimento da mandíbula e maxila. 
-      Feito de placa de resina acrílica com fios de aço, é projetado de forma personalizada para abordar problemas específicos e guiar o alinhamento dos dentes e ossos maxilares.`,
+      `,
       "link": "",
       "image": {
         "url": OrtodontiaBanner7,
@@ -203,6 +234,107 @@ export const cards = [
       "image": {
         "url": OrtodontiaBanner8,
         "alt": "Aparelho fixo autoligado transparente imagem"
+      }
+    },
+    {
+      "title": "Alinhadores Invsíveis",
+      "content": `Os alinhadores invisíveis revolucionaram o campo da ortodontia oferecendo uma alternativa discreta e eficaz aos aparelhos tradicionais. Feitos de material transparente e removíveis, esses dispositivos personalizados são projetados para alinhar os dentes gradualmente, proporcionando um sorriso harmonioso.`,
+      "link": "",
+      "image": {
+        "url": OrtodontiaBanner9,
+        "alt": "Alinhadores invísiveis imagem"
+      }
+    },
+  ]
+
+  export const bannersEndodontia = [
+    {
+      "title": "Tratamento de Canal",
+      "content": `O Tratamento de Canal é uma intervenção odontológica essencial para preservar um dente comprometido pela cárie profunda, lesão ou infecção na polpa dentária.
+      Este procedimento consiste na remoção cuidadosa do tecido danificado, limpeza, desinfecção e selamento do canal, visando salvar o dente e aliviar a dor associada. 
+      `,
+      "link": "",
+      "image": {
+        "url": EndodontiaBanner1,
+        "alt": "Tratamento de canal imagem"
+      }
+    },
+    {
+      "title": "Retratamento de Canal",
+      "content": `Esta técnica envolve a remoção cuidadosa do material de obturação anterior, a limpeza minuciosa do canal radicular e a aplicação de novos materiais para selar adequadamente o canal.
+      O Retratamento de Canal é essencial para salvar o dente, eliminar infecções persistentes e restaurar a saúde bucal, proporcionando alívio ao paciente e preservando a estrutura dental.`,
+      "link": "",
+      "image": {
+        "url": EndodontiaBanner2,
+        "alt": "Retratamento de canal imagem"
+      }
+    },
+  ]
+
+  export const bannersCirurgia = [
+    {
+      "title": "Extração de Dentes Permanentes",
+      "content": `A Extração de Dentes Permanentes é um procedimento cirúrgico para remover dentes irreparáveis ou com problemas graves, como cáries profundas ou danos.
+      Feita com anestesia local, a extração visa prevenir complicações futuras e promover a saúde bucal, seguida por orientações pós-operatórias para uma recuperação adequada. 
+      `,
+      "link": "",
+      "image": {
+        "url": CirurgiaBanner1,
+        "alt": "Extração de dentes imagem"
+      }
+    },
+    {
+      "title": "Extração de Sisos",
+      "content": `A Extração de Dentes Permanentes é um procedimento cirúrgico para remover dentes irreparáveis ou com problemas graves, como cáries profundas ou danos.
+      Feita com anestesia local, a extração visa prevenir complicações futuras e promover a saúde bucal, seguida por orientações pós-operatórias para uma recuperação adequada. 
+      `,
+      "link": "",
+      "image": {
+        "url": CirurgiaBanner2,
+        "alt": "Extração de sisos imagem"
+      }
+    },
+    {
+      "title": "Exodontia",
+      "content": `
+      A Exodontia trata da remoção de dentes, incluindo procedimentos como a extração de dentes supranumerários (extras) e a remoção de raízes residuais.
+      Essas intervenções visam resolver problemas de espaço e prevenir complicações, mantendo a saúde e funcionalidade bucal do paciente.
+      `,
+      "link": "",
+      "image": {
+        "url": CirurgiaBanner3,
+        "alt": "Exodontia imagem"
+      }
+    },
+    {
+      "title": "Ulectomia",
+      "content": `A Ulectomia é uma cirurgia oral para remover pequenas lesões ou mucoceles na boca, aliviando desconfortos e promovendo a saúde bucal do paciente. 
+      `,
+      "link": "",
+      "image": {
+        "url": CirurgiaBanner4,
+        "alt": "Ulectomia imagem"
+      }
+    },
+    {
+      "title": "Ulotomia",
+      "content": `
+      A ulotomia é uma cirurgia periodontal que envolve a remoção de tecido gengival excessivo para tratar bolsas periodontais profundas e melhorar a saúde das gengivas ao redor dos dentes. 
+      `,
+      "link": "",
+      "image": {
+        "url": CirurgiaBanner5,
+        "alt": "Ulotomia imagem"
+      }
+    },
+    {
+      "title": "Biópsia",
+      "content": `A biópsia odontológica é um procedimento que envolve a remoção de uma pequena amostra de tecido oral para análise laboratorial, visando diagnosticar e determinar a natureza de lesões ou condições anormais na boca. 
+      `,
+      "link": "",
+      "image": {
+        "url": CirurgiaBanner6,
+        "alt": "Biópsia imagem"
       }
     },
   ]
@@ -297,3 +429,198 @@ export const cards = [
       "answer": `A primeira visita deve ser ainda na dentição de leite, pois, diversos problemas graves como a “mordida cruzada” são comuns nessa fase e, geralmente, passam despercebidas.`,
     },
   ]
+
+  export const faqEndodontia = [
+    {
+      "question": "O que é endodontia?",
+      "answer": `Endodontia é uma especialidade odontológica que trata dos tecidos internos dos dentes, como a polpa dental e os tecidos ao redor das raízes.`,
+    },
+    {
+      "question": "Quando é necessário um tratamento de canal?",
+      "answer": `Um tratamento de canal é necessário quando a polpa do dente está infectada ou danificada devido a cárie profunda, trauma ou lesões.`,
+    },
+    {
+      "question": "Como saber se preciso de um tratamento de canal?",
+      "answer": `Sintomas como dor intensa ao mastigar, sensibilidade ao calor ou frio extremos, gengivas inchadas ou presença de abscesso podem indicar a necessidade de um tratamento de canal.
+      `,
+    },
+    {
+      "question": "O tratamento de canal é doloroso?",
+      "answer": `Com os avanços modernos, o tratamento de canal é realizado sob anestesia local, tornando-o geralmente indolor.`,
+    },
+    {
+      "question": "O que acontece durante um tratamento de canal?",
+      "answer": `Durante o tratamento de canal, o dentista remove a polpa infectada, limpa, desinfeta e sela o interior do dente para protegê-lo de futuras infecções.`,
+    },
+    {
+      "question": "Quanto tempo dura um tratamento de canal?",
+      "answer": "Em geral, um tratamento de canal pode ser concluído em uma ou duas sessões, dependendo da complexidade do caso.",
+    },
+    {
+      "question": "O que acontece após um tratamento de canal?",
+      "answer": `Após o tratamento de canal, pode ser necessária a restauração do dente com uma coroa ou obturação para fortalecê-lo e protegê-lo de danos futuros.`,
+    },
+    {
+      "question": "Quais são os benefícios do tratamento de canal?",
+      "answer": `O tratamento de canal preserva o dente natural, alivia a dor associada à infecção e restaura a função mastigatória normal.`,
+    },
+    {
+      "question": "Quais são as alternativas ao tratamento de canal?",
+      "answer": `A alternativa ao tratamento de canal é a extração do dente, porém, preservar o dente natural é sempre preferível sempre que possível.`,
+    },
+    { 
+      "question": "O que é um retratamento de canal?",
+      "answer": `O retratamento de canal é realizado quando um dente tratado anteriormente apresenta sintomas persistentes de infecção ou problemas. É uma tentativa de corrigir problemas após um tratamento de canal inicial.`,
+    },
+  ]
+
+  export const faqCirurgia = [
+    {
+      "question": "O que é uma extração de dentes permanentes?",
+      "answer": `A extração de dentes permanentes é a remoção de um dente danificado, quebrado, infectado ou irreparável.
+      `,
+    },
+    {
+      "question": "Qual a finalidade da extração de sisos?",
+      "answer": `A extração de sisos é realizada para remover os terceiros molares, frequentemente devido a problemas de impactação, falta de espaço ou risco de infecção.
+      `,
+    },
+    {
+      "question": "O que envolve o procedimento de exodontia?",
+      "answer": `A exodontia é o termo geral para a remoção de dentes, abrangendo procedimentos como extração de sisos, dentes supranumerários ou dentes afetados por cáries avançadas..
+      `,
+    },
+    {
+      "question": "O que é uma ulectomia na odontologia?",
+      "answer": `A ulectomia é a remoção cirúrgica de pequenas lesões ou mucoceles presentes na mucosa oral.`,
+    },
+    {
+      "question": "Qual é o objetivo da ulotomia?",
+      "answer": `A ulotomia é a cirurgia que remove excessos de tecido gengival para tratar bolsas periodontais profundas.`,
+    },
+    {
+      "question": "O que é uma biópsia na odontologia?",
+      "answer": "Uma biópsia odontológica é a remoção e análise de uma pequena amostra de tecido bucal anormal para diagnóstico de lesões ou condições.",
+    },
+    {
+      "question": "A extração de dentes permanentes é dolorosa?",
+      "answer": `Normalmente, o procedimento é realizado com anestesia local, minimizando o desconforto durante a extração.`,
+    },
+    {
+      "question": "É comum sentir dor após a extração de sisos?",
+      "answer": `Algum desconforto é normal após a extração de sisos, mas pode ser controlado com analgésicos e seguindo as orientações do dentista.`,
+    },
+    {
+      "question": "Qual é o tempo de recuperação após a exodontia?",
+      "answer": `A recuperação varia, mas geralmente leva alguns dias a uma semana para a cicatrização completa.`,
+    },
+    { 
+      "question": "A biópsia odontológica é um procedimento invasivo?",
+      "answer": `Sim, a biópsia envolve a remoção de uma pequena parte de tecido oral, mas é um procedimento geralmente bem tolerado e com recuperação rápida.`,
+    },
+  ]
+
+  export const gridImages = [
+    {
+      "title": "",
+      "category": "",
+      "source": Image1,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image2,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image3,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image4,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image5,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image6,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image7,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image8,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image9,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image10,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image11,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image12,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image13,
+    },
+    {
+      "title": "",
+      "category": "",
+      "source": Image14,
+    },
+  ]
+
+export const missionCards = [
+  {
+    "title": "Missão",
+    "content": "Nosso principal objetivo é a satisfação do paciente. Para isto, estamos sempre em busca de atualizações profissionais, materiais de qualidade e métodos inovadores.",
+    "link": "",
+    "image": {
+      "url": CardImage1,
+      "alt": "Missão ícone"
+    }
+  },
+  {
+    "title": "Visão",
+    "content": "Pretendemos mostrar com empatia e com um tratamento humanizado que a saúde bucal é importante e necessária para uma vida saudável.",
+    "link": "",
+    "image": {
+      "url": CardImage2,
+      "alt": "Visão ícone"
+    }
+  },
+  {
+    "title": "Valores",
+    "content": `Profissionalismo - Compromisso
+    Dedicação - Igualdade
+    Respeito - Empatia`,
+    "link": "",
+    "image": {
+      "url": CardImage3,
+      "alt": "Valores ícone"
+    }
+  },
+]
