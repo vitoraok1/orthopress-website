@@ -231,21 +231,21 @@ export const cards = [
       }
     },
     {
-      "title": "Documentação Ortodôntica",
-      "content": `A Documentação Ortodôntica incorpora diversos exames, como radiografias, fotografias intra e extra-orais, moldes e análises computadorizadas. Esses exames fornecem uma visão detalhada do paciente, possibilitando ao dentista compreender minuciosamente o caso. São fundamentais para um tratamento ortodôntico preciso e eficaz.`,
-      "link": "",
-      "image": {
-        "url": OrtodontiaBanner8,
-        "alt": "Aparelho fixo autoligado transparente imagem"
-      }
-    },
-    {
       "title": "Alinhadores Invsíveis",
       "content": `Os alinhadores invisíveis revolucionaram o campo da ortodontia oferecendo uma alternativa discreta e eficaz aos aparelhos tradicionais. Feitos de material transparente e removíveis, esses dispositivos personalizados são projetados para alinhar os dentes gradualmente, proporcionando um sorriso harmonioso.`,
       "link": "",
       "image": {
         "url": OrtodontiaBanner9,
         "alt": "Alinhadores invísiveis imagem"
+      }
+    },
+    {
+      "title": "Documentação Ortodôntica",
+      "content": `A Documentação Ortodôntica incorpora diversos exames, como radiografias, fotografias intra e extra-orais, moldes e análises computadorizadas. Esses exames fornecem uma visão detalhada do paciente, possibilitando ao dentista compreender minuciosamente o caso. São fundamentais para um tratamento ortodôntico preciso e eficaz.`,
+      "link": "",
+      "image": {
+        "url": OrtodontiaBanner8,
+        "alt": "Aparelho fixo autoligado transparente imagem"
       }
     },
   ]
