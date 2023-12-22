@@ -23,6 +23,9 @@ import OrtodontiaBanner9 from './assets/images/banner_9_ortodontia.png';
 
 import EndodontiaBanner1 from './assets/images/banner_1_endodontia.png';
 import EndodontiaBanner2 from './assets/images/banner_2_endodontia.png';
+import EndodontiaBanner3 from './assets/images/banner_3_endodontia.png';
+import EndodontiaBanner4 from './assets/images/banner_4_endodontia.png';
+import EndodontiaBanner5 from './assets/images/banner_5_endodontia.png';
 
 import CirurgiaBanner1 from './assets/images/banner_1_cirurgia.png';
 import CirurgiaBanner2 from './assets/images/banner_2_cirurgia.png';
@@ -62,6 +65,24 @@ export const cards = [
       }
     },
     {
+      "title": "Canal",
+      "content": "Dor de dente muito forte, espontânea, contínua, que não passa com o uso de analgésicos? O tratamento de canal é a chave para aliviar a dor e salvar dentes, restaurando a saúde bucal e o conforto do paciente.",
+      "link": "/endodontia",
+      "image": {
+        "url": Canal,
+        "alt": "Canal ícone"
+      }
+    },
+    {
+      "title": "Sisos",
+      "content": "Os dentes do siso são uma parte natural do nosso desenvolvimento dentário, e sua extração é recomendada quando apresentam problemas de espaço ou impactação.",
+      "link": "/cirurgia",
+      "image": {
+        "url": Sisos,
+        "alt": "Sisos ícone"
+      }
+    },
+    {
       "title": "Implantes",
       "content": "Implantes dentários são como raízes artificiais que sustentam sorrisos naturais, restabelecendo não apenas dentes os perdidos, mas também a confiança e qualidade de vida.",
       "link": "",
@@ -77,15 +98,6 @@ export const cards = [
       "image": {
         "url": Proteses,
         "alt": "Próteses ícone"
-      }
-    },
-    {
-      "title": "Canal",
-      "content": "Dor de dente muito forte, espontânea, contínua, que não passa com o uso de analgésicos? O tratamento de canal é a chave para aliviar a dor e salvar dentes, restaurando a saúde bucal e o conforto do paciente.",
-      "link": "",
-      "image": {
-        "url": Canal,
-        "alt": "Canal ícone"
       }
     },
     {
@@ -113,15 +125,6 @@ export const cards = [
       "image": {
         "url": HOF,
         "alt": "HOF ícone"
-      }
-    },
-    {
-      "title": "Sisos",
-      "content": "Os dentes do siso são uma parte natural do nosso desenvolvimento dentário, e sua extração é recomendada quando apresentam problemas de espaço ou impactação.",
-      "link": "",
-      "image": {
-        "url": Sisos,
-        "alt": "Sisos ícone"
       }
     },
     {
@@ -267,6 +270,38 @@ export const cards = [
       "image": {
         "url": EndodontiaBanner2,
         "alt": "Retratamento de canal imagem"
+      }
+    },
+    {
+      "title": "Apicectomia",
+      "content": `A apicectomia é um procedimento cirúrgico realizado na endodontia para tratar infecções persistentes na ponta da raiz do dente (ápice). Consiste na remoção da porção da raiz que está infectada, seguida pela limpeza, desinfecção e selamento da área afetada
+      É indicada quando o tratamento de canal convencional não foi eficaz ou quando há complicações adicionais.`,
+      "link": "",
+      "image": {
+        "url": EndodontiaBanner3,
+        "alt": "Apicectomia imagem"
+      }
+    },
+    {
+      "title": `
+      Tratamento de Lesões Periapicais`,
+      "content": `O tratamento de lesões periapicais é realizado para tratar inflamações ou infecções ao redor da ponta da raiz do dente (periápice). Essas lesões geralmente se desenvolvem como resultado de infecções bacterianas originadas do interior do dente.
+      O procedimento envolve a remoção da causa subjacente da infecção (por exemplo, tratamento de canal ou apicectomia), seguido por desinfecção e selamento da área afetada.
+      `,
+      "link": "",
+      "image": {
+        "url": EndodontiaBanner4,
+        "alt": "Tratamento de Lesões Periapicais imagem"
+      }
+    },
+    {
+      "title": "Tratamento de Traumas Dentários",
+      "content": `O tratamento de traumas dentários é destinado a restaurar a saúde e a funcionalidade do dente após lesões físicas, como fraturas, deslocamentos ou impactos nos dentes. 
+      Dependendo da gravidade do trauma, o tratamento pode incluir reabilitação endodôntica para preservar a estrutura interna do dente, como tratamento de canal, além de outras intervenções para restaurar a estética e a função dentária.`,
+      "link": "",
+      "image": {
+        "url": EndodontiaBanner5,
+        "alt": "Tratamento de Traumas Dentários imagem"
       }
     },
   ]

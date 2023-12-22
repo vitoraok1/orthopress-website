@@ -14,10 +14,30 @@ import BannerDesktop3 from '../../assets/images/banner_sobre2_wide.png';
 import { ImageGrid } from '../../components/commons/ImageGrid';
 import { MissionCard } from '../../components/commons/MissionCard';
 import { HeaderPages } from '../../components/commons/HeaderPages';
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 function Ortodontia() {
+  useEffect(() => {
+    const sr = ScrollReveal({
+      origin: 'top',   // De onde a animação deve começar ('top', 'bottom', 'left', 'right')
+      distance: '80px',   // Quão longe o elemento deve se deslocar durante a animação
+      duration: 2500,     // Duração da animação em milissegundos
+      reset: false         // Reseta a animação após cada utilização
+    });
+
+    sr.reveal('.nav', {
+      delay: 200,   // Atraso antes da animação começar em milissegundos
+    });
+
+    sr.reveal('.header', {
+      delay: 1500,   // Atraso antes da animação começar em milissegundos
+      distance: '160px',
+    });
+  }
+  , []);
   return (
-    <>
+    <div>
       <Navbar />
       <HeaderPages sloganSrc={Slogan} priSrc={Pri}/>
       <BannerAbout bannerTitle={'Sobre nós'} bannerMobilePath={BannerMobile} bannerDesktopPath={BannerDesktop} />
@@ -27,7 +47,7 @@ function Ortodontia() {
       <MissionCard />
       <Whatsapp />
       <Footer />
-    </>
+    </div>
   );
 }
 

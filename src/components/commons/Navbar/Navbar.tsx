@@ -55,11 +55,11 @@ export class Navbar extends Component<{}, NavbarState> {
           <li><NavLink to="/" className={ thisLocation("/") }>Início</NavLink></li>
           <li><NavLink to="/sobre" className={ thisLocation("/sobre") }>Sobre</NavLink></li>
           <li><NavLink to="/ortodontia" className={ thisLocation("/ortodontia") }>Ortodontia</NavLink></li>
+          <li><NavLink to="/endodontia" className={ thisLocation("/endodontia") }>Endodontia</NavLink></li>
+          <li><NavLink to="/cirurgia" className={ thisLocation("/cirurgia") }>Cirurgia</NavLink></li>
           <li><a href="index.html">Implantodontia</a></li>
           <li><a href="index.html">Próteses</a></li>
-          <li><NavLink to="/endodontia" className={ thisLocation("/endodontia") }>Endodontia</NavLink></li>
           <li><a href="index.html">Dentística</a></li>
-          <li><NavLink to="/cirurgia" className={ thisLocation("/cirurgia") }>Cirurgia</NavLink></li>
           <li><a href="index.html">Prevenção</a></li>
           <li><a href="index.html">HOF</a></li>
           <li><a href="index.html">Odontopediatria</a></li>
