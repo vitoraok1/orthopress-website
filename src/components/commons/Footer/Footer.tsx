@@ -18,7 +18,7 @@ const Footer = () => {
               <h4>Precisa de ajuda?</h4>
               <span className="info">Fale com a gente</span>
               <br/>
-              <i className="fab fa-whatsapp" /><span className="info">(44) 9836-1616</span>
+              <i className="fab fa-whatsapp" /><span className="info">(44) 99836-1616</span>
               <br/>
               <span className="info">WhatsApp Segunda à Sexta, das 09 às 19 horas.<br/> Sábado das 08 às 12 horas</span>
             </div>

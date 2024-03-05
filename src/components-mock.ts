@@ -176,7 +176,7 @@ export const cards = [
       }
     },
     {
-      "title": "Aparelho Fixo Estático",
+      "title": "Aparelho Fixo Estético",
       "content": "Se você está buscando por um tratamento discreto, os aparelhos ortodônticos transparente são os ideais. Eles funcionam como os aparelhos fixos convencionais, mas não têm a aparência metálica. Os bráquetes são feitos de materiais transparentes como policarbnato, porcelana ou safira e com cores próximas as dos dentes, tornando-os menos perceptíveis e mais esteticamente agradáveis.",
       "link": "",
       "image": {

@@ -37,7 +37,7 @@ function Cirurgia() {
     <div>
       <Navbar />
       <HeaderPages sloganSrc={sloganCirurgia} priSrc={priCirurgia}/>
-      <ProceduresCard title={'Conheça os procedimentos mais utilizados na endodontia'} carouselContent={bannersCirurgia} />
+      <ProceduresCard title={'Conheça os procedimentos mais utilizados na cirurgia'} carouselContent={bannersCirurgia} />
       <AskedQuestions faqTheme={faqCirurgia}/>
       <Whatsapp />
       <Footer />
