@@ -34,6 +34,11 @@ import CirurgiaBanner4 from './assets/images/banner_4_cirurgia.png';
 import CirurgiaBanner5 from './assets/images/banner_5_cirurgia.png';
 import CirurgiaBanner6 from './assets/images/banner_6_cirurgia.png';
 
+import HOFBanner1 from './assets/images/banner_1_hof.png';
+import HOFBanner2 from './assets/images/banner_2_hof.png';
+import HOFBanner3 from './assets/images/banner_3_hof.png';
+import HOFBanner4 from './assets/images/banner_4_hof.png';
+import HOFBanner5 from './assets/images/banner_5_hof.png';
 
 import Image1 from './assets/images/A.jpg';
 import Image2 from './assets/images/B.jpg';
@@ -85,7 +90,7 @@ export const cards = [
     {
       "title": "Implantes",
       "content": "Implantes dentários são como raízes artificiais que sustentam sorrisos naturais, restabelecendo não apenas dentes os perdidos, mas também a confiança e qualidade de vida.",
-      "link": "",
+      "link": "/implantodontia",
       "image": {
         "url": Implantes,
         "alt": "Implantes ícone"
@@ -121,7 +126,7 @@ export const cards = [
     {
       "title": "HOF",
       "content": "A harmonização orofacial é a arte de realçar a beleza natural do seu rosto, equilibrando proporções e revitalizando sua aparência com procedimentos seguros e personalizados.",
-      "link": "",
+      "link": "/hof",
       "image": {
         "url": HOF,
         "alt": "HOF ícone"
@@ -264,8 +269,7 @@ export const cards = [
     },
     {
       "title": "Retratamento de Canal",
-      "content": `Esta técnica envolve a remoção cuidadosa do material de obturação anterior, a limpeza minuciosa do canal radicular e a aplicação de novos materiais para selar adequadamente o canal.
-      O Retratamento de Canal é essencial para salvar o dente, eliminar infecções persistentes e restaurar a saúde bucal, proporcionando alívio ao paciente e preservando a estrutura dental.`,
+      "content": `Esta técnica envolve a remoção cuidadosa do material de obturação anterior, a limpeza minuciosa do canal radicular e a aplicação de novos materiais para selar adequadamente o canal.`,
       "link": "",
       "image": {
         "url": EndodontiaBanner2,
@@ -286,7 +290,6 @@ export const cards = [
       "title": `
       Tratamento de Lesões Periapicais`,
       "content": `O tratamento de lesões periapicais é realizado para tratar inflamações ou infecções ao redor da ponta da raiz do dente (periápice). Essas lesões geralmente se desenvolvem como resultado de infecções bacterianas originadas do interior do dente.
-      O procedimento envolve a remoção da causa subjacente da infecção (por exemplo, tratamento de canal ou apicectomia), seguido por desinfecção e selamento da área afetada.
       `,
       "link": "",
       "image": {
@@ -296,8 +299,7 @@ export const cards = [
     },
     {
       "title": "Tratamento de Traumas Dentários",
-      "content": `O tratamento de traumas dentários é destinado a restaurar a saúde e a funcionalidade do dente após lesões físicas, como fraturas, deslocamentos ou impactos nos dentes. 
-      Dependendo da gravidade do trauma, o tratamento pode incluir reabilitação endodôntica para preservar a estrutura interna do dente, como tratamento de canal, além de outras intervenções para restaurar a estética e a função dentária.`,
+      "content": `O tratamento de traumas dentários é destinado a restaurar a saúde e a funcionalidade do dente após lesões físicas, como fraturas, deslocamentos ou impactos nos dentes.`,
       "link": "",
       "image": {
         "url": EndodontiaBanner5,
@@ -370,6 +372,61 @@ export const cards = [
       "image": {
         "url": CirurgiaBanner6,
         "alt": "Biópsia imagem"
+      }
+    },
+  ]
+
+  export const bannersHOF = [
+    {
+      "title": "Toxina Botulínica",
+      "content": `A toxina botulínica, popularmente conhecida como botox, é uma substância utilizada na odontologia para tratar diversos problemas estéticos e funcionais. Ela atua relaxando os músculos faciais, reduzindo rugas, linhas de expressão e até mesmo ajudando no tratamento de disfunções da articulação temporomandibular (ATM). 
+      `,
+      "link": "",
+      "image": {
+        "url": HOFBanner1,
+        "alt": "Toxina Botulínica imagem"
+      }
+    },
+    {
+      "title": "Preenchimento Facial",
+      "content": `O preenchimento facial é um procedimento odontológico estético que visa restaurar o volume e a firmeza da pele do rosto, reduzindo rugas, sulcos e linhas de expressão. Utilizando materiais como ácido hialurônico, o preenchimento facial proporciona resultados naturais e duradouros. 
+      `,
+      "link": "",
+      "image": {
+        "url": HOFBanner2,
+        "alt": "Preenchimento Facial imagem"
+      }
+    },
+    {
+      "title": "Preenchimento Labial",
+      "content": `
+      O preenchimento labial é uma técnica que visa aumentar o volume dos lábios, proporcionando uma aparência mais harmoniosa e volumosa. Realizado com ácido hialurônico, o procedimento é seguro e oferece resultados imediatos, realçando a beleza do sorriso..
+      `,
+      "link": "",
+      "image": {
+        "url": HOFBanner3,
+        "alt": "Preenchimento Labial imagem"
+      }
+    },
+    {
+      "title": "Bioestimulador de Colágeno",
+      "content": `O bioestimulador de colágeno é uma opção inovadora para promover a produção natural de colágeno na pele, melhorando sua firmeza e elasticidade. Utilizando substâncias como a hidroxiapatita de cálcio, o procedimento estimula a renovação celular e rejuvenesce a aparência facial. 
+      `,
+      "link": "",
+      "image": {
+        "url": HOFBanner4,
+        "alt": "Bioestimulador imagem"
+      }
+    },
+    {
+      "title": "Fios de Colágeno (PDO)",
+      "content": `
+      Os fios de colágeno, também conhecidos como fios PDO, são uma técnica minimamente invasiva para promover o rejuvenescimento facial. Esses fios são inseridos na pele, estimulando a produção de colágeno e promovendo um lifting natural, com resultados visíveis e duradouros. 
+      `,
+      "link": "",
+      "image": {
+        "url": HOFBanner5,
+        "alt": "PDO imagem"
       }
     },
   ]
@@ -552,6 +609,49 @@ export const cards = [
     { 
       "question": "A biópsia odontológica é um procedimento invasivo?",
       "answer": `Sim, a biópsia envolve a remoção de uma pequena parte de tecido oral, mas é um procedimento geralmente bem tolerado e com recuperação rápida.`,
+    },
+  ]
+
+  export const faqHOF = [
+    {
+      "question": "O que é Harmonização Orofacial?",
+      "answer": `A Harmonização Orofacial é uma área da odontologia que visa promover a estética e a funcionalidade da face, por meio de procedimentos como toxina botulínica, preenchimento facial e outros.`,
+    },
+    {
+      "question": "Quais são os principais procedimentos realizados na Harmonização Orofacial?",
+      "answer": `Alguns dos principais procedimentos incluem aplicação de toxina botulínica, preenchimento facial, preenchimento labial, bioestimulador de colágeno e fios de colágeno.`,
+    },
+    {
+      "question": "Quais são os benefícios da Harmonização Orofacial?",
+      "answer": `Os benefícios incluem melhoria da estética facial, redução de rugas e linhas de expressão, correção de assimetrias, aumento do volume labial, rejuvenescimento facial e até mesmo tratamento de disfunções da articulação temporomandibular (ATM).`,
+    },
+    {
+      "question": "Quem pode se submeter à Harmonização Orofacial?",
+      "answer": `A Harmonização Orofacial é indicada para pessoas que desejam melhorar sua aparência facial e funcionalidade. No entanto, é essencial passar por uma avaliação com um profissional qualificado para determinar a adequação dos procedimentos para cada caso.`,
+    },
+    {
+      "question": "Qual é a duração dos resultados dos procedimentos de Harmonização Orofacial?",
+      "answer": `A duração dos resultados varia de acordo com o procedimento realizado. Por exemplo, a toxina botulínica geralmente dura de 3 a 6 meses, enquanto o preenchimento facial pode durar de 6 meses a 2 anos, dependendo do material utilizado.`,
+    },
+    {
+      "question": "Os procedimentos de Harmonização Orofacial são seguros?",
+      "answer": "Sim, quando realizados por profissionais qualificados e em ambiente adequado, os procedimentos de Harmonização Orofacial são seguros e têm baixos riscos de complicações.",
+    },
+    {
+      "question": "Os procedimentos de Harmonização Orofacial causam dor?",
+      "answer": `Os procedimentos podem causar algum desconforto, mas geralmente são bem tolerados pelos pacientes. O uso de anestesia local ou tópica pode ser aplicado para minimizar qualquer desconforto durante o procedimento.`,
+    },
+    {
+      "question": "Quais são os cuidados necessários após os procedimentos de Harmonização Orofacial?",
+      "answer": `Os cuidados pós-procedimento podem variar dependendo do tipo de intervenção realizada, mas geralmente incluem evitar exposição solar direta, evitar manipulação da área tratada e seguir as instruções do profissional quanto a cuidados específicos.`,
+    },
+    {
+      "question": "Quais são as contraindicações para os procedimentos de Harmonização Orofacial?",
+      "answer": `As contraindicações podem variar de acordo com o procedimento e a condição de saúde do paciente. Por exemplo, gestantes, lactantes, pessoas com infecções ativas na área a ser tratada e pacientes com certas condições médicas podem não ser elegíveis para certos procedimentos.`,
+    },
+    { 
+      "question": "Qual é o tempo de recuperação após os procedimentos de Harmonização Orofacial?",
+      "answer": `O tempo de recuperação pode variar de acordo com o procedimento realizado. Em geral, os pacientes podem retornar às atividades normais imediatamente após a maioria dos procedimentos, embora possam ocorrer inchaço, vermelhidão ou pequenos hematomas temporários, que geralmente desaparecem em poucos dias.`,
     },
   ]
 
