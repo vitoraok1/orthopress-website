@@ -26,6 +26,7 @@
 
 .question h3 {
   text-transform: none!important;
+  /* margin: auto; */
 }
 
 .answer {
@@ -79,6 +80,13 @@ h3 {
   to {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@media (max-width: 780px) {
+  .question h3 {
+    /* text-transform: none!important; */
+    margin: auto;
   }
 }
 
