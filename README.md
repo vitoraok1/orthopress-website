@@ -13,3 +13,5 @@
 
 
 In this project, a landing page and its subpages were developed with all required HTML elements, such as navbar, header, sections, Google Maps location, footer, among others. All pages were also adapted for mobile size.
+
+https://orthopress.netlify.app/
