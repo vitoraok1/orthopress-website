@@ -1,27 +1,27 @@
-import * as React from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import LandingPage from './pages/LandingPage/LandingPage';
-import About from './pages/About/About';
-import Ortodontia from './pages/Ortodontia/Ortodontia';
-import Endodontia from './pages/Endodontia/Endodontia';
-import Cirurgia from './pages/Cirurgia/Cirurgia';
-import Implantodontia from './pages/Implantodontia/Implantodontia';
-import HOF from './pages/HOF/HOF';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { Layout } from './components/Layout';
+import Home from './pages/Home';
+import Sobre from './pages/Sobre';
+import Especialidade from './pages/Especialidade';
+import { specialties } from './data/content';
 
-import './App.css';
-
-const App: React.FC = () => (
-	<BrowserRouter>
-		<Routes>
-			<Route path="/" element={<LandingPage />} />
-			<Route path="/sobre" element={<About />} />
-      <Route path="/ortodontia" element={<Ortodontia />} />
-      <Route path="/endodontia" element={<Endodontia />} />
-      <Route path="/cirurgia" element={<Cirurgia />} />
-      <Route path="/implantodontia" element={<Implantodontia />} />
-			<Route path="/hof" element={<HOF />} />
-		</Routes>
-	</BrowserRouter>
-);
-
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre" element={<Sobre />} />
+          {specialties.map((specialty) => (
+            <Route
+              key={specialty.slug}
+              path={`/${specialty.slug}`}
+              element={<Especialidade specialty={specialty} />}
+            />
+          ))}
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
