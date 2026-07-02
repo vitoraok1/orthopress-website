@@ -34,7 +34,7 @@ export default function Sobre() {
             <img
               src={images.fachada}
               alt="Fachada da clínica Orthopress em Cianorte"
-              className="w-full rounded-3xl object-cover shadow-lg"
+              className="w-full"
             />
           </Reveal>
           <Reveal delay={100}>

@@ -49,11 +49,7 @@ export default function Especialidade({ specialty }: { specialty: Specialty }) {
           <section key={section.title} className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
             <div className="grid items-center gap-12 lg:grid-cols-2">
               <Reveal className={index % 2 ? 'lg:order-2' : ''}>
-                <img
-                  src={section.image}
-                  alt={section.title}
-                  className="w-full rounded-3xl object-cover shadow-lg"
-                />
+                <img src={section.image} alt={section.title} className="w-full" />
               </Reveal>
               <Reveal delay={100}>
                 <h2 className="font-display text-3xl font-semibold leading-tight text-brand-900 sm:text-4xl">
@@ -89,7 +85,7 @@ export default function Especialidade({ specialty }: { specialty: Specialty }) {
                         src={card}
                         alt={`Etapa ${cardIndex + 1} do implante dentário`}
                         loading="lazy"
-                        className="w-full rounded-2xl shadow-sm"
+                        className="w-full"
                       />
                     </Reveal>
                   ))}
@@ -108,21 +104,19 @@ export default function Especialidade({ specialty }: { specialty: Specialty }) {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {specialty.procedures.map((procedure, index) => (
                 <Reveal key={procedure.title} delay={(index % 3) * 80}>
-                  <div className="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                  <div className="flex h-full flex-col">
                     <img
                       src={procedure.image}
                       alt={procedure.title}
                       loading="lazy"
-                      className="aspect-[4/3] w-full object-cover"
+                      className="w-full transition hover:-translate-y-1"
                     />
-                    <div className="flex flex-1 flex-col p-6">
-                      <h3 className="font-display text-xl font-semibold text-brand-900">
-                        {procedure.title}
-                      </h3>
-                      <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-600">
-                        {procedure.content}
-                      </p>
-                    </div>
+                    <h3 className="mt-5 font-display text-xl font-semibold text-brand-900">
+                      {procedure.title}
+                    </h3>
+                    <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-600">
+                      {procedure.content}
+                    </p>
                   </div>
                 </Reveal>
               ))}
