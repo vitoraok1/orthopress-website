@@ -154,9 +154,7 @@ export default function Sobre() {
           {missionCards.map((card, index) => (
             <Reveal key={card.title} delay={index * 100}>
               <div className="flex h-full flex-col items-center rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-                <div className="hero-gradient mb-5 flex h-16 w-16 items-center justify-center rounded-2xl p-3.5 shadow">
-                  <img src={card.icon} alt="" className="h-full w-full object-contain" />
-                </div>
+                <img src={card.icon} alt="" className="mb-5 h-20 w-20 object-contain" />
                 <h3 className="font-display text-xl font-semibold text-brand-900">{card.title}</h3>
                 <p className="mt-3 leading-relaxed text-slate-600">{card.content}</p>
               </div>

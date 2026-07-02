@@ -108,9 +108,7 @@ export default function Home() {
             {treatments.map((treatment, index) => (
               <Reveal key={treatment.title} delay={(index % 3) * 80}>
                 <div className="group flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-                  <div className="hero-gradient mb-5 flex h-14 w-14 items-center justify-center rounded-2xl p-3 shadow">
-                    <img src={treatment.icon} alt="" className="h-full w-full object-contain" />
-                  </div>
+                  <img src={treatment.icon} alt="" className="mb-5 h-16 w-16 object-contain" />
                   <h3 className="font-display text-xl font-semibold text-brand-900">
                     {treatment.title}
                   </h3>
