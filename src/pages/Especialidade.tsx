@@ -33,13 +33,13 @@ export default function Especialidade({ specialty }: { specialty: Specialty }) {
               Agende sua avaliação
             </a>
           </Reveal>
-          <Reveal delay={150} className="relative hidden justify-center lg:flex">
+          <div className="relative hidden justify-center lg:flex">
             <img
               src={specialty.heroImage}
               alt="Dra. Priscila Ferraz Fuzimoto"
               className="max-h-[480px] w-auto object-contain"
             />
-          </Reveal>
+          </div>
         </div>
       </header>
 

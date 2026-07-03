@@ -9,6 +9,7 @@ const baseLink =
 
 export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [specialtiesOpen, setSpecialtiesOpen] = useState(false);
   const { pathname } = useLocation();
   const specialtyActive = specialties.some((s) => pathname === `/${s.slug}`);
 
@@ -31,7 +32,11 @@ export function Navbar() {
             Sobre
           </NavLink>
 
-          <div className="group relative">
+          <div
+            className="relative"
+            onMouseEnter={() => setSpecialtiesOpen(true)}
+            onMouseLeave={() => setSpecialtiesOpen(false)}
+          >
             <button
               type="button"
               className={`${baseLink} flex items-center gap-2 ${
@@ -39,14 +44,19 @@ export function Navbar() {
               }`}
             >
               Especialidades
-              <FaChevronDown className="text-[10px] transition-transform group-hover:rotate-180" />
+              <FaChevronDown className={`text-[10px] transition-transform ${specialtiesOpen ? 'rotate-180' : ''}`} />
             </button>
-            <div className="invisible absolute left-0 top-full w-56 pt-3 opacity-0 transition-all group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div
+              className={`absolute left-0 top-full w-56 pt-3 transition-all ${
+                specialtiesOpen ? 'visible opacity-100' : 'invisible opacity-0'
+              }`}
+            >
               <div className="overflow-hidden rounded-2xl bg-white py-2 shadow-xl ring-1 ring-slate-200">
                 {specialties.map((s) => (
                   <NavLink
                     key={s.slug}
                     to={`/${s.slug}`}
+                    onClick={() => setSpecialtiesOpen(false)}
                     className={({ isActive }) =>
                       `block px-5 py-2.5 text-sm font-medium transition-colors ${
                         isActive

@@ -44,13 +44,13 @@ export default function Home() {
               </a>
             </div>
           </Reveal>
-          <Reveal delay={150} className="relative hidden justify-center lg:flex">
+          <div className="relative hidden justify-center lg:flex">
             <img
               src={images.pri}
               alt="Dra. Priscila Ferraz Fuzimoto"
               className="max-h-[540px] w-auto object-contain"
             />
-          </Reveal>
+          </div>
         </div>
       </header>
 
