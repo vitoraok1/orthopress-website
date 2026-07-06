@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaArrowRight, FaCheckCircle, FaWhatsapp } from 'react-icons/fa';
+import { FaArrowRight, FaWhatsapp } from 'react-icons/fa';
 import { clinic, images, treatments } from '../data/content';
 import { Reveal } from '../components/Reveal';
 import { SectionHeading } from '../components/SectionHeading';
@@ -55,8 +55,8 @@ export default function Home() {
       </header>
 
       {/* Números */}
-      <section className="relative z-10 mx-auto -mt-10 max-w-4xl px-4 sm:px-6">
-        <div className="grid gap-4 rounded-3xl border border-slate-100 bg-white p-6 shadow-xl sm:grid-cols-3 sm:gap-0 sm:divide-x sm:divide-slate-100">
+      <section className="relative z-10 mx-auto -mt-10 max-w-md px-4 sm:px-6">
+        <div className="grid gap-4 rounded-3xl border border-slate-100 bg-white p-6 shadow-xl sm:grid-cols-2 sm:gap-0 sm:divide-x sm:divide-slate-100">
           {clinic.stats.map((stat) => (
             <div key={stat.label} className="px-4 text-center">
               <p className="font-display text-4xl font-semibold text-brand-900">{stat.value}</p>
@@ -138,47 +138,6 @@ export default function Home() {
               </Reveal>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Convênios */}
-      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
-        <div className="grid items-center gap-12 lg:grid-cols-2">
-          <Reveal>
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-brand-500">
-              Convênios
-            </p>
-            <h2 className="font-display text-3xl font-semibold leading-tight text-brand-900 sm:text-4xl">
-              Procurando atendimento pelo seu plano em Cianorte?
-            </h2>
-            <div className="mt-5 h-1 w-16 rounded-full bg-accent-400" />
-            <p className="mt-6 text-lg leading-relaxed text-slate-600">
-              Atendemos os principais planos odontológicos da região. Fale conosco pelo WhatsApp e
-              confirme a cobertura do seu convênio.
-            </p>
-            <a
-              href={clinic.whatsappUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-8 inline-flex items-center gap-3 rounded-full bg-brand-700 px-7 py-3.5 font-semibold text-white shadow transition hover:-translate-y-0.5 hover:bg-brand-600"
-            >
-              <FaWhatsapp className="text-xl" />
-              Consultar meu plano
-            </a>
-          </Reveal>
-          <Reveal delay={100}>
-            <div className="grid gap-3 sm:grid-cols-2">
-              {clinic.insurances.map((plan) => (
-                <div
-                  key={plan}
-                  className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-sm"
-                >
-                  <FaCheckCircle className="shrink-0 text-lg text-accent-300" />
-                  <span className="font-medium text-slate-700">{plan}</span>
-                </div>
-              ))}
-            </div>
-          </Reveal>
         </div>
       </section>
 

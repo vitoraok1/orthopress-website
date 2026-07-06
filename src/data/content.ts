@@ -98,19 +98,9 @@ export const clinic = {
   stats: [
     { value: '+6.000', label: 'Sorrisos transformados' },
     { value: '+10', label: 'Anos de experiência' },
-    { value: '7', label: 'Convênios atendidos' },
   ],
   aboutShort:
     'A Orthopress é uma clínica odontológica preparada para atender todas as necessidades de seus clientes. Contamos com uma estrutura completa onde o paciente encontrará um atendimento reservado, individualizado e de qualidade.',
-  insurances: [
-    'DentalUni',
-    'Bradesco Dental',
-    'Odontoprev',
-    'BrasilDental',
-    'SulAmérica',
-    'PROASA Odonto',
-    'Ideal Odonto',
-  ],
 };
 
 export const images = {
